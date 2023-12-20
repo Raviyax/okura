@@ -8,7 +8,7 @@ class Home extends BaseController
 
     {
         
-        return view('Home'); //test
+        return view('Home'); 
     }
 
     

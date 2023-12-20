@@ -40,6 +40,7 @@
         <link rel="stylesheet" href="<?php echo base_url(  '/assets/css/vendor/gallery.min.css'  )?>">
         <link rel="stylesheet" href="<?php echo base_url(  '/assets/css/vendor/cookie-notice.min.css'  )?>">
         <link rel="stylesheet" href="<?php echo base_url(  '/assets/css/default.css'  )?>">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         
 
 
@@ -112,14 +113,10 @@
                 <!-- Navbar Icons -->
                 <ul class="navbar-nav icons">
                     <li class="nav-item social">
-                        <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/okuraservices" class="nav-link"><i class="fab fa-facebook-f"></i></a>
                     </li>
-                    <li class="nav-item social">
-                        <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="nav-item social">
-                        <a href="#" class="nav-link pr-0"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
+                
+                   
                 </ul>
 
             </div>
@@ -131,16 +128,11 @@
 
                 <!-- Navbar Brand-->
                 <a class="navbar-brand light" href="/">
-                    <!-- <span class="brand">
-                            <span class="featured">
-                                <span class="first">Okura Hotel</span>
-                            </span>
-                            <span class="last"> Services</span>
-                        </span> -->
+               
 
 
 
-                    <img src="<?php echo base_url(  '/assets/images/logo.png'  )?>" alt="NEXGEN">
+                    <img src="<?php echo base_url(  '/assets/images/logo.webp'  )?>" alt="NEXGEN">
 
                 </a>
 
@@ -150,28 +142,22 @@
                 <!-- Navbar Items -->
                 <ul class="navbar-nav items">
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">HOME <i class="icon-arrow-down"></i></a>
+                        <a href="#slider" class="nav-link">HOME <i class="icon-arrow-down"></i></a>
                       
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">SERVICES<i class="icon-arrow-down"></i></a>
+                        <a href="#services" class="nav-link">SERVICES<i class="icon-arrow-down"></i></a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">ABOUT US<i class="icon-arrow-down"></i></a>
+                        <a href="#about" class="nav-link">ABOUT US<i class="icon-arrow-down"></i></a>
                     </li>
         
              
                 </ul>
 
                 <!-- Navbar Icons -->
-                <ul class="navbar-nav icons">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
-                            <i class="icon-magnifier"></i>
-                        </a>
-                    </li>
-                </ul>
+             
 
                 <!-- Navbar Toggle -->
                 <ul class="navbar-nav toggle">
@@ -185,8 +171,7 @@
                 <!-- Navbar Action -->
                 <ul class="navbar-nav action">
                     <li class="nav-item ml-3">
-                        <!-- <a href="https://themeforest.net/item/nexgen-corporate-business-consulting-html-template/27965988?license=regular&open_purchase_for_item_id=27965988" target="_blank" class="btn ml-lg-auto primary-button">PURSHASE</a>
-                         -->
+                       
                                 
                                 
                                 <a href="#contact" class="smooth-anchor btn ml-lg-auto primary-button">CONTACT US</a>
@@ -301,7 +286,7 @@
                     <div class="card">
                         <i class="icon fas fa-briefcase"></i>
                         <h4>Job Recruiting</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <p>At Okura Hotel Services, we're your compass in the world of hospitality staffing. Our dedicated team connects hotels with the brightest talents in the industry. We specialize in finding the perfect match for your unique requirements, ensuring your hotel's workforce shines with professionalism and passion</p>
                         <a href="page-single-service-1.html"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -309,7 +294,7 @@
                     <div class="card">
                     <i class="icon fas fa-utensils"></i>
                         <h4>Kitchen Utensils</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <p>Unleash the culinary magic of your hotel with Okura's premium kitchen utensils. Elevate your dining experience with the finest tools of the trade, ensuring every meal served is a masterpiece. Explore our exquisite range, where innovation and precision meet to create unforgettable flavors</p>
                         <a href="page-single-service-1.html"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -317,7 +302,7 @@
                     <div class="card">
                         <i class="icon fas fa-user-tie"></i>
                         <h4>Hotel Consulting</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <p>Striving for excellence in the hospitality sector? Okura Hotel Services offers expert consulting that drives your success. Our seasoned advisors understand the ins and outs of the industry, providing you with tailored strategies and insights that pave the way for unparalleled guest satisfaction and business growth. Experience the Okura difference in hotel excellence</p>
                         <a href="page-single-service-1.html"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -340,23 +325,24 @@
                     </div>
                     <div class="row items">
                         <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                            <h4><i class="mr-2 icon-badge"></i>Tradition</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4><i class="mr-2 fas fa-handshake"></i>Tailored Excellence</h4>
+                            <p>Okura excels in customizing solutions to fit each hotel's unique needs, ensuring services are specifically designed to elevate individual establishments</p>
                         </div>
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-                            <h4><i class="mr-2 icon-lock"></i>Security</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                            <h4><i class="mr-2 fas fa-star"></i>Client-Centric Focus</h4>
+                            <p>Okura offers a holistic suite of services, ensuring that whether it's sourcing kitchen utensils, hiring talent, or seeking strategic advice, hotels find all-encompassing solutions within Okura's offerings.</p>
                         </div>
                     </div>
                     <div class="row items">
-                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 item">
-                            <h4><i class="mr-2 icon-note"></i>Certificate</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                        <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
+                            <h4><i class="mr-2 fas fa-business-time"></i>Diverse Expertise</h4>
+                            <p>With a team of seasoned professionals across various fields, Okura provides a comprehensive approach, combining expertise in kitchen utensils, recruitment, and consultancy under one roof</p>
                         </div>
                         <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-4 item">
-                            <h4><i class="mr-2 icon-graduation"></i>Expertise</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <h4><i class="mr-2 fas fa-list"></i>Holistic Solutions</h4>
+                            <p>Okura stays ahead by integrating cutting-edge technology into its services, enhancing efficiency, and offering modern solutions that set new industry standards</p>
                         </div>
+                       
                     </div>
 
                     <!-- Action -->
@@ -380,8 +366,8 @@
             <div class="container">
                 <div class="row text-center intro">
                     <div class="col-12">
-                        <span class="pre-title">We do more for everyone</span>
-                        <h2 class="mb-0">Actions & <span class="featured"><span>Projects</span></span></h2>
+                        <span class="pre-title">What We Have Done</span>
+                        <h2 class="mb-0">Our<span class="featured"><span>Projects</span></span></h2>
                     </div>
                 </div>
                 <div class="row justify-content-center text-center">
@@ -392,29 +378,18 @@
                                 <span>All</span>
                             </label>
                             <label class="btn">
-                                <input type="radio" value="institutional" class="btn-filter-item">
-                                <span>Institutional</span>
+                                <input type="radio" value="Job Recruitements" class="btn-filter-item">
+                                <span>Job Recruitements</span>
                             </label>
                             <label class="btn">
-                                <input type="radio" value="social" class="btn-filter-item">
-                                <span>Social</span>
+                                <input type="radio" value="Kitchen Utensils" class="btn-filter-item">
+                                <span>Kitchen Utensils</span>
                             </label>
                             <label class="btn">
-                                <input type="radio" value="events" class="btn-filter-item">
-                                <span>Events</span>
+                                <input type="radio" value="Hotel Consultings" class="btn-filter-item">
+                                <span>Hotel Consultings</span>
                             </label>
-                            <label class="btn">
-                                <input type="radio" value="innovation" class="btn-filter-item">
-                                <span>Innovation</span>
-                            </label>
-                            <label class="btn">
-                                <input type="radio" value="environment" class="btn-filter-item">
-                                <span>Environment</span>
-                            </label>
-                            <label class="btn">
-                                <input type="radio" value="technology" class="btn-filter-item">
-                                <span>Technology</span>
-                            </label>
+                            
                         </div>
                     </div>
                 </div>
@@ -422,12 +397,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-1.jpg" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img1.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>Academic professional program in social media</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -438,12 +413,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["institutional","events","environment"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-2.jpg" alt="Lorem ipsum">
+                                  <img src="<?php echo base_url('assets/images/img2.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>President's speech at the annual meeting</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -454,12 +429,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-3.jpg" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img3.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>International business trip in Shanghai</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -470,12 +445,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-4.jpg" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img5.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>Technology workshop with education theme</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -486,12 +461,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["social","environment","events"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-5.jpg" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img6.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>Donation of clothes and food to the partner NGO</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -502,12 +477,12 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","institutional","technology"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo ROOTPATH; ?>/assets/images/project-6.jpg" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img4.webp') ?>" alt="Lorem ipsum">
                             </div>
                             <div class="card-caption col-12 p-0">
                                 <div class="card-body">
                                     <a href="#">
-                                        <h4>Confraternization of the procurement team</h4>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </a>
                                 </div>
@@ -535,25 +510,25 @@
                     <div data-percent="128" class="radial">
                         <span></span>
                     </div>
-                    <h4>Certifications</h4>
+                    <h4>Hotels</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 item">
-                    <div data-percent="230" class="radial">
+                    <div data-percent="96" class="radial">
                         <span></span>
                     </div>
-                    <h4>Employees</h4>
+                    <h4>Employees We Hired</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 item">
-                    <div data-percent="517" class="radial">
+                    <div data-percent="125" class="radial">
                         <span></span>
                     </div>
-                    <h4>Customers</h4>
+                    <h4>Consultances</h4>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 item">
-                    <div data-percent="94" class="radial">
+                    <div data-percent="8" class="radial">
                         <span></span>
                     </div>
-                    <h4>Countries Served</h4>
+                    <h4>Districts We expanded</h4>
                 </div>
             </div>
         </div>
@@ -608,8 +583,8 @@
                 <div class="col-12 col-md-8 pr-md-5 align-self-center text">
                     <div class="row intro">
                         <div class="col-12 p-0">
-                            <span class="pre-title m-0">Send a message</span>
-                            <h2>Get in <span class="featured"><span>Touch</span></span></h2>
+                            <span class="pre-title m-0">Contact Us</span>
+                            <h2>Send a<span class="featured"><span> Message</span></span></h2>
                             <p>We will respond to your message as soon as possible.</p>
                         </div>
                     </div>
@@ -618,7 +593,7 @@
                             <form action="php/form.php" id="nexgen-simple-form" class="nexgen-simple-form">
                                 <input type="hidden" name="section" value="nexgen_form">
 
-                                <input type="hidden" name="reCAPTCHA">
+                                <!-- <input type="hidden" name="reCAPTCHA"> -->
                                 <!-- Remove this field if you want to disable recaptcha -->
 
                                 <div class="row form-group-margin">
@@ -635,13 +610,12 @@
                                         <i class="icon-arrow-down mr-3"></i>
                                         <select name="info" class="form-control field-budget">
                                             <option value="" selected disabled>More Info</option>
-                                            <option>Audit & Assurance</option>
-                                            <option>Financial Advisory</option>
-                                            <option>Analytics and M&A</option>
-                                            <option>Middle Marketing</option>
-                                            <option>Legal Consulting</option>
-                                            <option>Regulatory Risk</option>
-                                            <option>Other</option>
+                                            <option value="1">Our Services</option>
+                                            <option value="2">Our Projects</option>
+                                            <option value="3">Our Pricing</option>
+                                            <option value="4">Our Process</option>
+                                            s
+                                       
                                         </select>
                                     </div>
                                     <div class="col-12 m-0 p-2 input-group">
@@ -660,26 +634,26 @@
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="contacts">
-                        <h4>Example Inc.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <p>Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+                        <h4>Okura Hotel Service (pvt) Ltd</h4>
+                        <p>The industry leader in providing comprehensive, tailored services to hotels islandwide</p>
+                        
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-phone-alt mr-2"></i>
-                                    +1 (305) 1234-5678
+                                    +94 112 444 401
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-envelope mr-2"></i>
-                                    hello@example.com
+                                    okurahotelservices@gmail.com
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-map-marker-alt mr-2"></i>
-                                    Main Avenue, 987
+                                    37A, Perahera Mawatha, Colombo 03, Sri Lanka
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -712,28 +686,28 @@
 
                             
                               
-                                    <img src="<?php echo ROOTPATH; ?>/assets/images/logo.png" alt="NEXGEN">
+                                    <img src="<?php echo base_url("assets/images/logo.webp") ?>" alt="NEXGEN">
 
                                
                         </a>
-                        <p>A Functional HTML Template<br>for Corporate & Business.</p>
+                        <p>The industry leader<br>in providing comprehensive, tailored services to hotels islandwide</p>
                         <ul class="navbar-nav">
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-phone-alt mr-2"></i>
-                                    +1 (305) 1234-5678
+                                    +94 112 444 401
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-envelope mr-2"></i>
-                                    hello@example.com
+                                    okurahotelservices@gmail.com
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="#" class="nav-link">
                                     <i class="fas fa-map-marker-alt mr-2"></i>
-                                    Main Avenue, 987
+                                    37A, Perahera Mawatha, Colombo 03, Sri Lanka
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -747,35 +721,21 @@
                                 <div class="card">
                                     <h4>About</h4>
                                     <a href="#"><i class="icon-arrow-right"></i>The Company</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Institutional</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Social & Events</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Innovation</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Environment</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Technology</a>
+                                    <a href="#"><i class="icon-arrow-right"></i>Projects Done</a>
+                                   
                                 </div>
                             </div>
                             <div class="col-12 col-lg-4 item">
                                 <div class="card">
                                     <h4>Services</h4>
-                                    <a href="#"><i class="icon-arrow-right"></i>Audit & Assurance</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Financial Advisory</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Analytics M&A</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Middle Marketing</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Legal Consulting</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Regulatory Risk</a>
+                                    <a href="#"><i class="icon-arrow-right"></i>Kitchen Utensils</a>
+                                    <a href="#"><i class="icon-arrow-right"></i>Job Recruiting</a>
+                                    <a href="#"><i class="icon-arrow-right"></i>Hotel Consulting</a>
+
+                                  
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-4 item">
-                                <div class="card">
-                                    <h4>Support</h4>
-                                    <a href="#"><i class="icon-arrow-right"></i>Responsibility</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Terms of Use</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>About Cookies</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Privacy Policy</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Accessibility</a>
-                                    <a href="#"><i class="icon-arrow-right"></i>Information</a>
-                                </div>
-                            </div>
+                        
                         </div>
                     </div>
                 </div>
@@ -787,13 +747,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md-6 p-3 text-center text-lg-left">
-                        <p>Enjoy the low price. We are tracking any intention of piracy.</p>
+                        <p>A Showcase of Our Unforgettable Hospitality Transformations</p>
                         <!--
                                 Suggestion: Replace the text above with a description of your website.
                              -->
                     </div>
                     <div class="col-12 col-md-6 p-3 text-center text-lg-right">
-                        <p>© 2023 NEXGEN is Proudly Powered by <a href="" target="_blank">ITMind</a>.</p>
+                        <p>© 2023 Proudly Powered by <a href="" target="_blank">ITMind</a>.</p>
                     </div>
                 </div>
             </div>
@@ -802,122 +762,13 @@
     </footer>
 
     <!-- Modal [search] -->
-    <div id="search" class="p-0 modal fade" role="dialog" aria-labelledby="search" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-slideout" role="document">
-            <div class="modal-content full">
-                <div class="modal-header" data-dismiss="modal">
-                    <i class="icon-close fas fa-arrow-right"></i>
-                </div>
-                <div class="modal-body">
-                    <form class="row">
-                        <div class="col-12 p-0 align-self-center">
-                            <div class="row">
-                                <div class="col-12 p-0">
-                                    <h2>What are you looking for?</h2>
-                                    <div class="badges">
-                                        <span class="badge"><a href="#">Consulting</a></span>
-                                        <span class="badge"><a href="#">Audit</a></span>
-                                        <span class="badge"><a href="#">Assurance</a></span>
-                                        <span class="badge"><a href="#">Advisory</a></span>
-                                        <span class="badge"><a href="#">Financial</a></span>
-                                        <span class="badge"><a href="#">Capital Markets</a></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group">
-                                    <input type="text" class="form-control" placeholder="Enter Keywords">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group align-self-center">
-                                    <button class="btn primary-button">SEARCH</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Modal [sign] -->
-    <div id="sign" class="p-0 modal fade" role="dialog" aria-labelledby="sign" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-slideout" role="document">
-            <div class="modal-content full">
-                <div class="modal-header" data-dismiss="modal">
-                    <i class="icon-close fas fa-arrow-right"></i>
-                </div>
-                <div class="modal-body">
-                    <form action="/" class="row">
-                        <div class="col-12 p-0 align-self-center">
-                            <div class="row">
-                                <div class="col-12 p-0 pb-3">
-                                    <h2>Sign In</h2>
-                                    <p>Don't have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#register">Register now</a>.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group">
-                                    <input type="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Password" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group align-self-center">
-                                    <button class="btn primary-button">SIGN IN</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- Modal [register] -->
-    <div id="register" class="p-0 modal fade" role="dialog" aria-labelledby="register" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-slideout" role="document">
-            <div class="modal-content full">
-                <div class="modal-header" data-dismiss="modal">
-                    <i class="icon-close fas fa-arrow-right"></i>
-                </div>
-                <div class="modal-body">
-                    <form action="/" class="row">
-                        <div class="col-12 p-0 align-self-center">
-                            <div class="row">
-                                <div class="col-12 p-0 pb-3">
-                                    <h2>Register</h2>
-                                    <p>Have an account? <a href="#" class="primary-color" data-toggle="modal" data-target="#sign">Sign In</a>.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group">
-                                    <input type="text" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="col-12 p-0 input-group">
-                                    <input type="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Password" required>
-                                </div>
-                                <div class="col-12 p-0 input-group">
-                                    <input type="password" class="form-control" placeholder="Confirm Password" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 p-0 input-group align-self-center">
-                                    <button class="btn primary-button">REGISTER</button>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
     <!-- Modal [map] -->
     <div id="map" class="p-0 modal fade" role="dialog" aria-labelledby="map" aria-hidden="true">
@@ -927,8 +778,7 @@
                     <i class="icon-close fas fa-arrow-right"></i>
                 </div>
                 <div class="modal-body p-0">
-                    <iframe src="/https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.123073808986!2d12.490042215441486!3d41.89021017922119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColiseu!5e0!3m2!1spt-BR!2sbr!4v1594148229878!5m2!1spt-BR!2sbr" width="600" height="450" aria-hidden="false" tabindex="0"></iframe>
-                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15843.136998588925!2d79.8516996!3d6.9163785!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25941d6c21c39%3A0x5970378631823cf9!2sOkura%20hotel%20services%20(PVT)Ltd!5e0!3m2!1sen!2slk!4v1703043794096!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
             </div>
         </div>
     </div>
@@ -964,7 +814,6 @@
     <!-- ==============================================
         Google reCAPTCHA // Put your site key here
         =============================================== -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
 
     <!-- ==============================================
         Vendor Scripts
