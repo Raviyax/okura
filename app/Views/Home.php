@@ -136,7 +136,7 @@
 
 
 
-                    <img src="<?php echo base_url(  '/assets/images/logo.webp'  )?>" alt="NEXGEN">
+                    <img src="<?php echo base_url(  '/assets/images/logo.webp'  )?>" alt="okura">
 
                 </a>
 
@@ -401,7 +401,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","social","technology"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo base_url('assets/images/img1.webp') ?>" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img1.webp') ?>" alt="okura">
                             </div>
                             
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -410,7 +410,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["institutional","events","environment"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                  <img src="<?php echo base_url('assets/images/img2.webp') ?>" alt="Lorem ipsum">
+                                  <img src="<?php echo base_url('assets/images/img2.webp') ?>" alt="okura">
                             </div>
                         
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -419,7 +419,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["environment","institutional","social"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo base_url('assets/images/img3.webp') ?>" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img3.webp') ?>" alt="okura">
                             </div>
                        
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -428,7 +428,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","events","innovation"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo base_url('assets/images/img5.webp') ?>" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img5.webp') ?>" alt="okura">
                             </div>
                     
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -437,7 +437,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["social","environment","events"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo base_url('assets/images/img6.webp') ?>" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img6.webp') ?>" alt="okura">
                             </div>
                         
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -446,7 +446,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["innovation","institutional","technology"]'>
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="<?php echo base_url('assets/images/img4.webp') ?>" alt="Lorem ipsum">
+                                <img src="<?php echo base_url('assets/images/img4.webp') ?>" alt="okura">
                             </div>
                          
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
@@ -648,7 +648,7 @@
 
                             
                               
-                                    <img src="<?php echo base_url("assets/images/logo.webp") ?>" alt="NEXGEN">
+                                    <img src="<?php echo base_url("assets/images/logo.webp") ?>" alt="okura">
 
                                
                         </a>
