@@ -399,14 +399,7 @@
                             <div class="image-over">
                                 <img src="<?php echo base_url('assets/images/img1.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                            
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -415,14 +408,7 @@
                             <div class="image-over">
                                   <img src="<?php echo base_url('assets/images/img2.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                        
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -431,14 +417,7 @@
                             <div class="image-over">
                                 <img src="<?php echo base_url('assets/images/img3.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                       
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -447,14 +426,7 @@
                             <div class="image-over">
                                 <img src="<?php echo base_url('assets/images/img5.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                    
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -463,14 +435,7 @@
                             <div class="image-over">
                                 <img src="<?php echo base_url('assets/images/img6.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                        
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -479,14 +444,7 @@
                             <div class="image-over">
                                 <img src="<?php echo base_url('assets/images/img4.webp') ?>" alt="Lorem ipsum">
                             </div>
-                            <div class="card-caption col-12 p-0">
-                                <div class="card-body">
-                                    <a href="#">
-                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </a>
-                                </div>
-                            </div>
+                         
                             <a href="#"><i class="btn-icon fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>

@@ -17,6 +17,7 @@ class App extends BaseConfig
      *    http://example.com
      */
     public string $baseURL = 'https://okurahotelservices.duckdns.org/';
+    // public string $baseURL = 'http://localhost/okura/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
